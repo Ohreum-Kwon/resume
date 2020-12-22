@@ -4,7 +4,19 @@
       Content 1
     </ng-template>
   </mat-tab>
-  <mat-tab label="About"> Content 2 </mat-tab>
-  <mat-tab label="Projects"> Content 3 </mat-tab>
-  <mat-tab label="Work Experience"> Content 4 </mat-tab>
+  <mat-tab label="About">
+    <ng-template matTabContent>
+      Content 2
+    </ng-template>
+  </mat-tab>
+  <mat-tab label="Projects">
+    <ng-template matTabContent>
+      Content 3
+    </ng-template>
+  </mat-tab>
+  <mat-tab label="Work Experience">
+    <ng-template matTabContent>
+      Content 4
+    </ng-template>
+  </mat-tab>
 </mat-tab-group>
