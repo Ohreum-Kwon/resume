@@ -1,9 +1,20 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <span>OH REUM KWON</span>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row>
+    <span>SOFTWARE DEVELOPER</span>
+  </mat-toolbar-row>
+</mat-toolbar>
+
 <mat-tab-group>
   <mat-tab>
     <ng-template mat-tab-label>
       <mat-icon>home</mat-icon>
       Home
     </ng-template>
+    <home-view></home-view>
   </mat-tab>
 
   <mat-tab>
@@ -11,6 +22,7 @@
       <mat-icon>face</mat-icon>
       About
     </ng-template>
+    <about-view></about-view>
   </mat-tab>
 
   <mat-tab>
