@@ -1,0 +1,27 @@
+.project-container {
+  padding: 20px;
+}
+
+.project-card {
+  max-width: 400px;
+  height: 430px;
+}
+
+.morse-header-image {
+  background-image: url('/assets/images/morseCodeIcon.png');
+  background-size: cover;
+}
+
+.androidApp-header-image {
+  background-image: url('/assets/images/androidIcon.png');
+  background-size: cover;
+}
+
+.percolation-header-image {
+  background-image: url('/assets/images/percolationIcon.png');
+  background-size: cover;
+}
+
+.mat-card-image {
+  height: 200px;
+}
