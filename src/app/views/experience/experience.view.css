@@ -1,0 +1,16 @@
+.list-height .mat-list-item {
+  height: auto;
+}
+
+.experience-container {
+  padding: 20px;
+}
+
+.experience-card {
+  max-width: 400px;
+  height: 500px;
+}
+
+.mat-card-image {
+  height: 300px;
+}
