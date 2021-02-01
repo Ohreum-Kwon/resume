@@ -1,13 +1,12 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatTabsModule } from '@angular/material/tabs';
-import { MatIconModule } from '@angular/material/icon';
-import { FlexLayoutModule } from '@angular/flex-layout';
+import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatGridListModule } from '@angular/material/grid-list';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { NgModule } from '@angular/core';
 import { NgVerticalTimelineModule } from 'ng-vertical-timeline';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -15,13 +14,15 @@ import { AppComponent } from './app.component';
 import { HomeView } from './views/home/home.view';
 import { AboutView } from './views/about/about.view';
 import { ProjectsView } from './views/projects/projects.view';
+import { ExperienceView } from './views/experience/experience.view';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeView,
     AboutView,
-    ProjectsView
+    ProjectsView,
+    ExperienceView
   ],
   imports: [
     BrowserModule,
@@ -33,8 +34,7 @@ import { ProjectsView } from './views/projects/projects.view';
     FlexLayoutModule,
     MatToolbarModule,
     NgVerticalTimelineModule,
-    MatGridListModule,
-    MatCardModule
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
