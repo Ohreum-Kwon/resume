@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'experience-view',
   templateUrl: './experience.view.html',
   styleUrls: ['./experience.view.css']
 })
-export class ExperienceView implements OnInit {
+export class ExperienceView {
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
