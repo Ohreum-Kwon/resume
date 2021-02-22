@@ -20,4 +20,4 @@ This resume project was generated with [Angular CLI](https://github.com/angular/
 [Angular Material Components](https://material.angular.io/components/categories)
 Angular's UI component library
 
-[Vertical Timeline](https://www.npmjs.com/package/ng-vertical-timeline)
+[Angular2+ Vertical Timeline](https://www.npmjs.com/package/ng-vertical-timeline)
