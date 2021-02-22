@@ -1,12 +1,12 @@
 # Ohreum's Resume
 
-This resume project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+This resume project was built using Angular
 
 ## Major Goals
 
 - Learn front end web development
-- Learn and pracitce new languages
-- Learn to use GitHub & cooperate on a project with others
+- Learn and practice new languages
+- Learn to use GitHub & collaborate on a project with others
 - Utilize component library
 
 ## Languages
